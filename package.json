@@ -31,6 +31,7 @@
     "server": "json-server server.json -p 3333"
   },
   "devDependencies": {
+    "@types/react-modal": "^3.13.1",
     "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.25",
     "json-server": "^0.16.3"
