@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 interface IFoodStyles {
-  available: boolean
+  available: Boolean
 }
 
 export const Container = styled.div<IFoodStyles>`

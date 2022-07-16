@@ -9,7 +9,7 @@ import { FormHandles } from "@unform/core";
 interface Ifood {
   available: false;
   description: string;
-  id: number;
+  id: string;
   image: string;
   name: string;
   price: string;
@@ -18,7 +18,7 @@ interface Ifood {
 interface ModalAddFoodProps {
   isOpen: boolean;
   setIsOpen: () => void;
-  handleAddFood: (food: Ifood) => void;
+  handleAddFood: (food: Ifood) => Promise<void>;
 }
 
 export const ModalAddFood = (props: ModalAddFoodProps) => {
